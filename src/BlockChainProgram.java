@@ -6,8 +6,8 @@ import java.util.Scanner;
 public class BlockChainProgram {
 
     private ArrayList<Block> blockChain = new ArrayList<>();
-    private static Scanner stringScanner = new Scanner(System.in);
-    private static Scanner intScanner = new Scanner(System.in);
+    private Scanner stringScanner = new Scanner(System.in);
+    private Scanner intScanner = new Scanner(System.in);
 
     public static void main(String[] args) throws IOException {
         BlockChainProgram bcp = new BlockChainProgram();
